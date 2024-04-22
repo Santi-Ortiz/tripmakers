@@ -24,6 +24,7 @@ module.exports = {
         },
         blue: {
           70: '#021639',
+          100: '#A5DBDB',
         },
         yellow: {
           50: '#FEC601',
@@ -33,6 +34,7 @@ module.exports = {
         'bg-img-1': "url('/img-1.png')",
         'bg-img-2': "url('/img-2.png')",
         'feature-bg': "url('/feature-bg.png')",
+        'bg-title': "url('/title.jpg')",
         pattern: "url('/pattern.png')",
         'pattern-2': "url('/pattern-bg.png')",
       },
