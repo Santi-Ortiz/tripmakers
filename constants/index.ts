@@ -1,7 +1,7 @@
 // NAVIGATION
 export const NAV_LINKS = [
   { href: '/', key: 'home', label: 'Inicio' },
-  { href: '/', key: 'destinos', label: 'Destinos Turísticos' },
+  { href: '/destinos-turisticos', key: 'destinos', label: 'Destinos Turísticos' },
   { href: '/', key: 'pricing ', label: '¡Compra YA! ' }
 ];
 
