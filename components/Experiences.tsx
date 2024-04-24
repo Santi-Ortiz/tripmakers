@@ -47,13 +47,13 @@ const Experiences = () => {
 
         <Activities
           backgroundImage='bg-bg-img-1'
-          title='Senderismo'
-          subtitle='Subtitulo 1'
+          title='Senderismo / Hiking'
+          subtitle='Disfruta de las mejores caminatas por los bosques más exhuberantes de Costa Rica'
         />
         <Activities
           backgroundImage='bg-bg-img-2'
           title='Quads'
-          subtitle='Subtitulo 2'
+          subtitle='Embárcate en una emocionante aventura todo terreno y descubre la belleza natural de Costa Rica mientras recorres senderos selváticos y terrenos desafiantes en nuestros quads.'
 
         />
         <Activities
@@ -78,7 +78,7 @@ const Experiences = () => {
             <strong>¿No sabes a donde ir</strong> y qué lugares visitar?
           </h2>
           <p className='regular-14 xl:regular-16 mt-5 text-white'>
-            Con TripMakers...
+            Con TripMakers vas a encontrar y disfrutar de las mejores actividades que vas a encontrar en todo Costa Rica. ¡Confía en nosotros!
           </p>
           <Image 
             src="/quote.svg"
