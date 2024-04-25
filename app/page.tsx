@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
 
-      <Title />
+      <Title titulo="¿Quieres conocer Costa Rica?" subtitulo="Con TripMakers más que viajes, son experiencias" backgroundImage='/bg-title.jpg'/>
       <AboutUs />
       <Experiences />
       <Features />

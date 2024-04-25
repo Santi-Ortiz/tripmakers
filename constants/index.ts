@@ -1,8 +1,8 @@
 // NAVIGATION
 export const NAV_LINKS = [
   { href: '/', key: 'home', label: 'Inicio' },
-  { href: '/destinos-turisticos', key: 'destinos', label: 'Destinos Turísticos' },
-  { href: '/', key: 'pricing ', label: '¡Compra YA! ' }
+  { href: '/turism', key: 'destinos', label: 'Destinos Turísticos' },
+  { href: '/cart', key: 'pricing ', label: '¡Compra YA! ' }
 ];
 
 // CAMP SECTION

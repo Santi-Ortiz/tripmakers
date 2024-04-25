@@ -11,10 +11,10 @@ const AboutUs = () => {
 
         <h1 className='bold-52 lg:bold-88'>¿Quiénes somos?</h1>
         <section className="max-w-[700px] padding-container mt-9
-    flex flex-col gap-10 py-10 pb-15 md:gap-28 lg:py-20 bg-gray-300 lg:rounded-3xl 2xl:rounded-5xl lg:ml-10" >
+    flex flex-col gap-10 py-10 pb-15 md:gap-28 lg:py-20 bg-gray-10 lg:rounded-3xl 2xl:rounded-5xl lg:ml-10" >
 
-          <p className='regular-16 mt-6 text-gray-30 xl: max-w-[520px] '>
-            Somos...
+          <p className='regular-20 text-gray-50 xl: max-w-[520px] '>
+            En TripMakers nos enorgullece ser el vínculo entre viajeros y las experiencias inolvidables que Costa Rica tiene por ofrecer.  Con un enfoque en el turismo sostenible y la exploración auténtica, estamos aquí para guiar a nuestros clientes en cada paso de su viaje. Te invitamos a descubrir Costa Rica con nosotros y convertirte en un verdadero TripMaker
           </p>
 
         </section>

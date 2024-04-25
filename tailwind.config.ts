@@ -10,13 +10,14 @@ module.exports = {
       colors: {
         green: {
           50: '#30AF5B',
+          75: '#218C53',
           90: '#292C27',
         },
         gray: {
           10: '#EEEEEE',
           20: '#A2A2A2',
           30: '#7B7B7B',
-          50: '#585858',
+          50: '#5D5D5D',
           90: '#141414',
         },
         orange: {
@@ -31,10 +32,11 @@ module.exports = {
         },
       },
       backgroundImage: {
-        'bg-img-1': "url('/img-1.png')",
-        'bg-img-2': "url('/img-2.png')",
+        'bg-img-1': "url('/img-3.jpg')",
+        'bg-img-2': "url('/02.jpg')",
+        'bg-img-3': "url('/rappel.jpg')",
         'feature-bg': "url('/feature-bg.png')",
-        'bg-title': "url('/title.jpg')",
+        'bg-title': "url('/bg-title.jpg')",
         pattern: "url('/pattern.png')",
         'pattern-2': "url('/pattern-bg.png')",
       },
