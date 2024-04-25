@@ -7,7 +7,7 @@ const Navbar = () => {
 
     return (
         <nav className="flexBetween 
-        max-container padding-container relative z-30 py-5 bg-blue-100">
+        max-container padding-container relative z-30 py-5 bg-green-200">
             <Link href="/">
                 <Image src="/" alt="logo" width={74} height={29}>
 
