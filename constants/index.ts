@@ -48,32 +48,29 @@ export const FEATURES = [
 // FOOTER SECTION
 export const FOOTER_LINKS = [
   {
-    title: 'Learn More',
+    title: 'Conoce más',
     links: [
-      'About Hilink',
-      'Press Releases',
-      'Environment',
-      'Jobs',
-      'Privacy Policy',
-      'Contact Us',
+      'Sobre TripMakers',
+      'Política de Privacidad',
+      'Contáctanos',
     ],
   },
   {
-    title: 'Our Community',
-    links: ['Climbing xixixi', 'Hiking hilink', 'Hilink kinthill'],
+    title: 'Nuestra comunidad',
+    links: ['Senderismo', 'Quads', 'Rappel'],
   },
 ];
 
 export const FOOTER_CONTACT_INFO = {
-  title: 'Contact Us',
+  title: 'Contáctanos',
   links: [
-    { label: 'Admin Officer', value: '123-456-7890' },
-    { label: 'Email Officer', value: 'hilink@akinthil.com' },
+    { label: 'Teléfono', value: '302-415-76-86' },
+    { label: 'Email', value: 'tripmakers@gmail.com' },
   ],
 };
 
 export const SOCIALS = {
-  title: 'Social',
+  title: 'Redes Sociales',
   links: [
     '/facebook.svg',
     '/instagram.svg',
