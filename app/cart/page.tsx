@@ -5,7 +5,7 @@ export default function cart(){
     return (
         <>
             <Title titulo="Tenemos los mejores combos de atracciones y lugares que debes conocer en Costa Rica" subtitulo="" backgroundImage='/title3.jpeg'/>
-            <Combos nombreCombo="Aventuras Extremas" descripcion = "¡Emoción y adrenalina en medio de la exhuberante naturaleza tropical! Incluye: Rafting en los rápidos del río Pacuare, Mistico Park, senderismo en el Parque Nacional Corcovado."
+            <Combos nombreCombo="Plan Aventuras Extremas" descripcion = "¡Emoción y adrenalina en medio de la exhuberante naturaleza tropical! Incluye: Rafting en los rápidos del río Pacuare, Mistico Park, senderismo en el Parque Nacional Corcovado."
                 imagen = '/rafting.jpeg' />
             <Combos nombreCombo="Plan Relajación Playa" descripcion = "Playas serenas y paisajes costeros impresionantes para desconectar y relajarse. Incluye: Snorkel en la Isla del Caño, kayak en las aguas cristalinas de Manuel Antonio, caminatas en las playas de Tortuguero."
                 imagen = '/tortuguero1.jpg' />
