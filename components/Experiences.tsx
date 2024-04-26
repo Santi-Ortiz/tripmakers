@@ -10,10 +10,11 @@ interface ActivitiesProps {
 const Activities = ({ backgroundImage, title, subtitle }: ActivitiesProps) => {
   return (
     <div className={`h-full w-full min-w-[1100px] ${backgroundImage}
-    bg-cover bg-no-repeat lg:rounded-r-5xl 2xl:rounded-5xl`} style={{ opacity: 0.8 }}>
-
+    bg-cover bg-no-repeat lg:rounded-r-5xl 2xl:rounded-5xl `}>
       <div className="flex h-full flex-col items-start justify-between
-      p-6 lg:px-20 lg:py-10 ">
+      p-6 lg:px-20 lg:py-10 " style={{
+        backgroundColor:"rgba(85,85,85,0.6)",
+        borderRadius:"5%"}}>
         <div className="flexCenter gap-4">
           <div className="rounded-full bg-green-50 p-4">
             <Image
@@ -63,9 +64,9 @@ const Experiences = () => {
 
         />
         <Activities
-          backgroundImage='bg-bg-img-2'
-          title='Actividad 2'
-          subtitle='Subtitulo 2'
+          backgroundImage='bg-bg-img-4'
+          title='Rafting'
+          subtitle='El rafting en Costa Rica ofrece una emocionante aventura en medio paisajes impresionantes. Con una variedad de ríos que van desde suaves corrientes aptas para principiantes hasta rápidos desafiantes para los más experimentados, Costa Rica es un paraíso para los amantes del rafting. Sumérgete en aguas cristalinas mientras desciendes por cañones escarpados y atraviesas emocionantes rápidos. El rafting en Costa Rica promete una experiencia inolvidable para todos los niveles de habilidad.'
 
         />
 

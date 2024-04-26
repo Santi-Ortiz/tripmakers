@@ -17,31 +17,31 @@ export const PEOPLE_URL = [
 export const FEATURES = [
   {
     title: 'Centralización de información',
-    icon: '/map.svg',
+    icon: '/location.svg',
     variant: 'green',
     description:
       'Encuentras toda la información turística en un solo lugar, desde hoteles, restaurantes, hasta sitios de interés turístico. Además, puedes planificar tu viaje de forma personalizada.',
   },
   {
     title: 'Pase de Oro',
-    icon: '/calendar.svg',
+    icon: '/tech.svg',
     variant: 'green',
     description:
       "Múltiples entradas a sitios de interés con un único tiquete. Además, descuentos en otros sitios turísticos para motivar al usuario a seguir descubriendo otras ofertas.",
   },
   {
-    title: 'Caracteristica 3',
-    icon: '/tech.svg',
+    title: 'Reservas simplificadas',
+    icon: '/map.svg',
     variant: 'green',
     description:
-      'Descripcion',
+      ' Simplifica tus reservas turísticas en un solo lugar. Desde destinos hasta actividades, reserva todo lo que necesitas para tu viaje de manera rápida y conveniente. Además, obtén acceso a ofertas exclusivas y descuentos especiales al reservar a través de nuestra plataforma.',
   },
   {
-    title: 'Característica 4',
-    icon: '/location.svg',
+    title: 'Explora y ahorra',
+    icon: '/close.svg',
     variant: 'orange',
     description:
-      'Descricpion',
+      ' Descubre múltiples atracciones turísticas con un solo pase. Con nuestro Pase de Explorador, accede a una variedad de sitios de interés con un único boleto. Además, disfruta de descuentos en otras experiencias turísticas para fomentar tu exploración continua y ayudarte a ahorrar en tus aventuras de viaje.',
   },
 ];
 
@@ -56,7 +56,7 @@ export const FOOTER_LINKS = [
     ],
   },
   {
-    title: 'Nuestra comunidad',
+    title: 'Nuestras Actividades',
     links: ['Senderismo', 'Quads', 'Rappel'],
   },
 ];
