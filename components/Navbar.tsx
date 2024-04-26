@@ -7,14 +7,14 @@ const Navbar = () => {
 
     return (
         <nav className="flexBetween 
-        max-container padding-container relative z-30 py-5 bg-green-200">
+        max-container padding-container relative z-30 py-5 bg-white-200">
             <Link href="/">
                 <Image src="/logo-tripmakers.png" alt="logo" width={74} height={29}></Image>
             </Link>
 
             <ul className="hidden h-full gap-12 lg:flex ">
                 {NAV_LINKS.map((link) => (
-                    <Link href={link.href} key={link.key} className="regular-16 text-gray-50 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold">
+                    <Link href={link.href} key={link.key} className="bold-16 text-black-50 flexCenter cursor-pointer p-2 transition-all hover:bg-gray-100 hover:rounded-md">
                         {link.label}
                     </Link>
                 ))}
