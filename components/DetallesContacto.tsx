@@ -51,7 +51,7 @@ const DetallesContacto = ({ onSubmit }: { onSubmit: (data: any) => void }) => {
                             <input className="shadow appearance-none border rounded w-64 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mb-4" type="text" placeholder="Código Postal" />
                         </div>
                     )}
-                    <button onClick={handlePagoSubmit}>Completar Pago</button>
+                    <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded shadow-md transition-colors duration-300 mt-4" onClick={handlePagoSubmit}>Completar Pago</button>
                 </div>
             )}
         </div>
