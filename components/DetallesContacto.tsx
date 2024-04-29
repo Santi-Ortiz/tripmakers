@@ -20,9 +20,13 @@ const DetallesContacto = ({ onSubmit }: { onSubmit: (data: any) => void }) => {
         setPagoSeleccionado(event.target.value);
     };
 
-    const handlePagoSubmit = () => {
-        // Lógica para procesar el pago
-        console.log('Pago completado:', nombre, apellidos, email, telefono, pagoSeleccionado);
+    const handlePagoSubmit = async () => {
+        const res = await fetch('/api/send', {
+            method: 'POST'
+        })
+        const data = await res.json();
+        console.log(data);
+
     };
 
     return (
